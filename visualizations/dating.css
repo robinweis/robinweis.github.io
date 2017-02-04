@@ -1,0 +1,246 @@
+@media screen and (max-width: 767px) {
+    #visualization-container {
+  		margin-left: 30px !important;
+  	}
+}
+
+.first:hover, .first.hovered {
+	outline: 1px solid #666666;
+	z-index: 999999;
+}
+
+#date-container {
+	padding-top: 120px;
+	height: 0px;
+	/*margin: auto;*/
+	width: 1095px;
+}
+
+.yaxis {
+	position: absolute;
+	padding-top: 105px;
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+    font-size: 9pt;
+}
+
+.yaxis div {
+	position: relative;
+	margin-top: 32px;
+	left: -40px;
+}
+
+.xaxis {
+	width: 1175px;
+	font-family: 'Varela Round', sans-serif;
+	color: #666666;
+    font-size: 9pt;
+}
+
+.xaxis div {
+	display: inline-block;
+	padding-left: 2px;
+	padding-right: 58px;
+	padding-top: 20px;
+}
+
+.break div {
+	background: none !important;
+}
+
+.day {
+	margin-top: 1px;
+}
+
+.day, .grr {
+	position: relative;
+	float: left;
+	height: 45px;
+	width: 3px;
+}
+
+.half, .half div {
+	height: 22px;
+}
+
+.grr {
+	margin-top: 23px;
+	height: 1px;
+	margin-left: -3px;
+	background-color: #CE85CE;
+}
+
+.bottom {
+	margin-top: 24px;
+	margin-left: -3px;
+}
+
+.uppercase-relationship div, #so {
+	background: #CE85CE;
+}
+
+.color {
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+}
+
+.description {
+	display: inline-block;
+}
+
+/* Grae */
+/* dating */.year1.day86, .year1.day92, .year1.day93, .year1.day95, .year1.day97, .year1.day98, .year1.day100, .year1.day102, .year1.day103, .year1.day104, .year1.day110, .year1.day112, .year1.day120, .year1.day126, .year1.day127, .year1.day128, .year1.day132, .year1.day188, .year1.day191, .year1.day201, .year1.day202, .year1.day209, .year1.day218, .year1.day228, .year1.day235, .year1.day237, .year1.day237, .year1.day243, .year1.day245, 
+/* friends*/ .year1.day141, .year1.day160, .year1.day168, .year1.day174
+/*.year1.day252, */
+{
+	background: #C266C2;
+}
+
+/* Ad */
+/* V0 .year2.day205, .year2.day206,*/
+/* V1 */.year2.day242, .year2.day243, .year2.day244, .year2.day245,
+/* V2 */.year2.day283, .year2.day284, .year2.day285, .year2.day286,
+/* V3 */.year2.day310, .year2.day311, .year2.day312, .year2.day313, .year2.day314, .year2.day315, .year2.day316, .year2.day318, .year2.day319, .year2.day320, .year2.day321, .year2.day322,
+/* V4 */.year2.day353, .year2.day354, .year2.day355, .year2.day356, .year2.day357,
+/* V5 */.year3.day10, .year3.day11, .year3.day12, .year3.day13, .year3.day14, .year3.day15, .year3.day16, .year3.day17, .year3.day18, .year3.day19, .year3.day20,
+/* V6 */.year3.day45, .year3.day46, .year3.day47, .year3.day48, .year3.day49, .year3.day50, .year3.day51,
+/* V7 */.year3.day60, .year3.day61, .year3.day62, .year3.day63, .year3.day64, .year3.day65, .year3.day66, .year3.day67, .year3.day68, .year3.day69, .year3.day70,
+/* V8 */.year3.day108, .year3.day109, .year3.day110, .year3.day111, .year3.day112, .year3.day113, .year3.day114, .year3.day115, .year3.day116, .year3.day117, .year3.day118,
+/* V9 */.year3.day128, .year3.day131, .year3.day132, .year3.day134, .year3.day135, .year3.day136, .year3.day137, .year3.day138,
+/* V10 */.year3.day151, .year3.day152, .year3.day153, .year3.day154, .year3.day155, .year3.day156, .year3.day157,
+/* V11 */.year3.day179, .year3.day180, .year3.day181,
+/* V12 */.year3.day214, .year3.day215, .year3.day216, .year3.day217, .year3.day218, .year3.day219, .year3.day220, .year3.day221, .year3.day222, .year3.day223, .year3.day224, .year3.day225, .year3.day226, .year3.day227, .year3.day228, .year3.day229, .year3.day230, .year3.day231, .year3.day232, .year3.day233, .year3.day234, .year3.day235, .year3.day236, .year3.day237,
+/* V13 */.year3.day255, .year3.day256, .year3.day257, .year3.day258,
+/* V14 */.year3.day276, .year3.day277, .year3.day278, .year3.day279, .year3.day280, .year3.day281, .year3.day282
+/* friends .year3.day312, .year3.day313, .year3.day314, .year3.day351, .year3.day352, .year3.day355, .year3.day356, .year3.day357, .year3.day358, .year3.day359, .year4.day37, .year4.day39*/
+{
+	background: #C266C2;
+}
+
+/* Chris */
+.year4.day55 {
+	background: #C266C2;
+}
+
+
+.lowercase-relationship div, #cr {
+	background: #4DDBB8;
+}
+
+/* Zach */
+.year1.day286, .year1.day306, .year1.day307 {
+	background: #00CC99;	
+}
+
+/* Victor */
+.year2.day68, .year2.day69, .year2.day87, .year2.day88, .year2.day89, .year2.day90, .year2.day91, .year2.day92 {
+	background: #00CC99;	
+}
+
+/* Jeff */
+.year2.day153, .year2.day158, .year2.day161, .year2.day164, .year2.day167, .year2.day169, .year2.day171, .year2.day173, .year2.day174, .year2.day180, .year2.day181, .year2.day185, .year2.day188, .year2.day189, .year2.day198, .year2.day210 {
+	background: #00CC99;	
+}
+
+/* William */
+.year2.day223, .year2.day224, .year2.day228, .year2.day232, .year2.day233 {
+	background: #00CC99;
+}
+
+/* Aron */
+.year3.day308, .year3.day309, .year3.day317, .year3.day318, .year3.day321, .year3.day323, .year3.day324, .year3.day328, .year3.day329, .year3.day330, .year3.day335, .year3.day338, .year3.day350, .year3.day360, .year3.day362, .year4.day5, .year4.day12, .year4.day13, .year4.day39 {
+	background: #00CC99;
+}
+
+/* Stephen */
+.year4.day3, .year4.day7, .year4.day8, .year4.day9, .year4.day10, .year4.day13, .year4.day14, .year4.day17, .year4.day21, .year4.day22, .year4.day27, .year4.day30 {
+	background: #00CC99;
+}
+
+/* Robert */
+.year4.day26, .year4.day31, .year4.day32, .year4.day40, .year4.day49, .year4.day50 {
+	background: #00CC99;
+}
+
+/* Erika and Mr. Lewis */
+
+/* first dates */
+.day.first, #fd,
+.year4.day3 /*stephen*/, .year4.day19 /*jack*/, .year4.day23 /*erika and thomas*/, .year4.day26 /*robert*/, .year4.day29 /*nick*/, .year4.day48 /*russell*/ /*, .year4.day55 Chris*/
+{
+	background: #666666;
+}
+
+/*second+ dates*/
+.year17.day298,
+.year1.day13, .year1.day224, .year1.day230, .year1.day245, .year2.day63, .year2.day67, .year2.day81, .year3.day9, .year3.day58, .year3.day114, .year3.day178, .year3.day284, .year3.day287, .year3.day296, .year3.day297, .year3.day307, .year3.day332
+{
+	/*background: gray;*/
+}
+
+/*not-dates*/
+.year1.day1, .year1.day21, .year1.day26, .year1.day33, .year1.day237, .year1.day259, .year1.day292, .year1.day350, .year2.day6, .year2.day12, .year2.day23, .year2.day48, .year2.day116, .year2.day231, .year2.day352, .year3.day13, .year3.day33, .year3.day34, .year3.day99, .year3.day146, .year3.day251, .year3.day334, .year3.day363
+{
+	/*background: yellow;*/
+}
+
+#bubble {
+    color: #666666;
+    cursor: default;
+    position: absolute;
+    width: 660px;
+    height: 110px;
+    z-index: 500;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 9pt;
+    text-align: justify;
+}
+
+#key {
+	cursor: default;
+	display: inline;
+	position: absolute;
+	color: #666666;
+	font-family: 'Varela Round', sans-serif;
+    font-size: 9pt;
+    left: 830px;
+    top: 35px;
+    width: 200px;
+}
+
+.keyrow {
+	padding-top: 3px;
+}
+
+#next, #prev {
+	position: absolute;
+	left: 710px;
+	color: #666666;
+	font-family: 'Varela Round', sans-serif;
+    font-size: 9pt;
+    padding: 3px;
+    width: 60px;
+    text-align: center;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#next {
+	top: 35px;
+}
+
+#prev {
+	top: 65px;
+}
+
+h4 {
+    color: #666666;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12pt;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
