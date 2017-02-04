@@ -1,0 +1,27 @@
+h2 {
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+h3 {
+    margin-bottom: 4px;
+}
+
+#okc {
+    height: auto; 
+    width: auto; 
+    max-width: 70% !important; 
+    max-height: 70%;
+}
+
+#x2013 {
+    position: relative;
+    max-width: 150% !important;
+    left: -25%;
+    border: 1px solid #cccccc;
+}
+
+.label {
+    text-align: center;
+}
