@@ -1,0 +1,79 @@
+#main-content-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+  color: #999999;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+#exploration-container {
+    width: 640px !important;
+    overflow: visible !important;
+}
+
+img.graph {
+    position: relative;
+    max-width: 124% !important;
+    left: -12%;
+}
+
+#sankey_basic {
+    position: relative;
+    left: 250px;
+    padding-right: 100px;
+}
+
+#categories {
+    position: relative;
+    left: -300px;
+    padding-left: 100px;
+    margin-top: -15px;
+    width: 400px;
+}
+
+#exploration-container ul {
+    margin-top: 0;
+}
+
+div > img#meme, div > img#pic {
+    max-width: 400px;
+}
+
+#splunk {
+    border: 1px solid #cccccc;
+}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+}
+
+h3.section {
+    text-align: left;
+    font-weight: bold;
+}
+
+.footnote, .caption {
+    font-size: 12px;
+}
+
+.caption {
+    text-align: center;
+}
+
+li {
+    margin-top: 14px;
+}
+
+@media screen and (max-width:480px) {
+    #categories {
+        position: relative;
+        left: -300px;
+        padding-left: 140px !important;
+        margin-top: -15px;
+        width: 360px !important;
+    }
+}
