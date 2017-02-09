@@ -135,7 +135,7 @@ function addListeners() {
                 case "books":
                     string = "<h4>books</h4>";
                     string += "<div id='duration'><i>Oct 2012 - Sep 2015</i></div>";
-                    string += "My informal New Year's resolution for 2016 is to read 25 books. As of the beginning of June, I've finished 7 novels, 4 pieces of non-fiction, and 2 screenplays, totaling more than 1,000,000 words.";
+                    string += "My informal New Year's resolution for 2016 was to read 25 books, since I stopped reading for leisure sometime in college. I read close to 2,000,000 words and enjoy reading regularly as a hobby again :)";
                     $("#bubble").html(string);
                     $('#books').css('cursor', 'pointer');
                     break;
@@ -553,3 +553,4 @@ var endTime = function(index) {
 	var myEndTime = aboutMe[index][4];
 	return myEndTime;
 };
+
