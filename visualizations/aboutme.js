@@ -385,7 +385,7 @@ function addListeners() {
                 case "driver":
                     string = "<h4>Driver</h4>";
                     string += "<div id='duration'><i>Jan 2016 - present</i></div>";
-                    string += "I had such a positive experience being an rideshare passenger that I decided to turn the tables and get paid to have one-off interactions with strangers instead. I didn't do it super often, but it was a way fun way to mitigate the expenses of owning a car and while meeting people that you're never obligated to talk to again.";
+                    string += "I had such a positive experience being an rideshare passenger that I decided to turn the tables and get paid to have one-off interactions with strangers instead. I didn't do it super often, but it was a way fun way to mitigate the expenses of owning a car while meeting people that you're never obligated to talk to again.";
                     $("#bubble").html(string);
                     break;
                    }
