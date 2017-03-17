@@ -385,7 +385,7 @@ function addListeners() {
                 case "driver":
                     string = "<h4>Driver</h4>";
                     string += "<div id='duration'><i>Jan 2016 - present</i></div>";
-                    string += "I had such a positive experience being an Uber passenger that I decided to turn the tables and get paid to have one-off interactions with strangers instead. So far, I tend to drive once a week for just a couple hours, but it's a way fun way to mitigate the expenses of owning a car and to meet people that you're never obligated to talk to again.";
+                    string += "I had such a positive experience being an rideshare passenger that I decided to turn the tables and get paid to have one-off interactions with strangers instead. I didn't do it super often, but it was a way fun way to mitigate the expenses of owning a car and while meeting people that you're never obligated to talk to again.";
                     $("#bubble").html(string);
                     break;
                    }
@@ -450,7 +450,7 @@ var aboutMe = [
 	["cry&nbsp;&nbsp;", "me", "cry", feb + 2014, oct + 2015, false],
 	["assistant referee&nbsp;&nbsp;", "work", "pegasus", apr + 2007, jun + 2010, true],
 	["referee&nbsp;&nbsp;", "work", "nuim", mar + 2011, jun + 2013, false],
-	["developer and designer&nbsp;&nbsp;", "work", "mcm", sep + 2014, today, true],
+	["developer and designer&nbsp;&nbsp;", "work", "mcm", sep + 2014, mar + 2017, true],
 	["program coordinator&nbsp;&nbsp;", "work", "cia", jun + 2013, sep + 2013, false],
 	["assistant&nbsp;&nbsp;", "work", "cradle", jun + 2011, jun + 2012, false],
 	["tutor&nbsp;&nbsp;", "work", "tutor", sep + 2012, may + 2013, false],
@@ -470,8 +470,8 @@ var aboutMe = [
 
 	filler,
 
-    ["quantified self&nbsp;&nbsp;", "adult", "qs", jun + 2015, today, false],
-  ["volunteer&nbsp;&nbsp;", "adult", "shelter", oct + 2016, today, true],
+    ["quantified self&nbsp;&nbsp;", "adult", "qs", jun + 2015, mar + 2017, false],
+  ["volunteer&nbsp;&nbsp;", "adult", "shelter", oct + 2016, mar + 2017, true],
 	["sigma alpha iota&nbsp;&nbsp;", "college", "sai", apr + 2011, jun + 2014, false],
 	["good karma&nbsp;&nbsp;", "hs", "goodkarma", sep + 2007, jun + 2009, false],
 	["actuary club&nbsp;&nbsp;", "college", "actuary", jan + 2011, mar + 2013, true],
