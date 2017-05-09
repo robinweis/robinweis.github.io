@@ -9,7 +9,7 @@ var buildHeader = function() {
 
 	$('body').prepend('<div id="header-container"></div>')
 		$('#header-container').append('<img id="logo" src="http://www.robinwe.is/logo.png" />')
-		$('#header-container').append('<div id="contact-container">robin@robinwe.is | <a style="text-decoration:none; color: #999999;" href="https://twitter.com/personifiedself">@personifiedself</a></div>')
+		$('#header-container').append('<div id="contact-container">robinlweis@gmail.com | <a style="text-decoration:none; color: #999999;" href="https://twitter.com/personifiedself">@personifiedself</a></div>')
 		$('#header-container').append('<div id="nav-container"></div>')
 			$('#nav-container').prepend('<nav class="header-link" id="visualizations-link">visualizations</nav>')
 				$('#visualizations-link').append('<div class="nav-dropdown" id="visualizations-dropdown" style="display: none;"></div>')
