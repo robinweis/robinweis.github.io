@@ -247,6 +247,12 @@ function addListeners() {
                     string += "Finally gaining the courage to be the center ref in soccer and learning how to officiate volleyball and floor hockey.";
                     $("#bubble").html(string);
                     break;
+		case "farmhand":
+                    string = "<h4>farmhand</h4>";
+                    string += "<div id='duration'><i>Mar 2011 - Jun 2013</i></div>";
+                    string += "Working with goats, sheep, rabbits, ducks, chicken, pigs, and dogs in rural Alaska.";
+                    $("#bubble").html(string);
+                    break;
 
                 //
 
@@ -449,7 +455,8 @@ var aboutMe = [
 	["clerk&nbsp;&nbsp;", "work", "ymca", jun + 2012, jun + 2013, false],
 	["cry&nbsp;&nbsp;", "me", "cry", feb + 2014, oct + 2015, false],
 	["assistant referee&nbsp;&nbsp;", "work", "pegasus", apr + 2007, jun + 2010, true],
-	["referee&nbsp;&nbsp;", "work", "nuim", mar + 2011, jun + 2013, false],
+	["referee&nbsp;&nbsp;", "work", "nuim", mar + 2011, jun + 2013, true],
+	["farmhand&nbsp;&nbsp;", "work", "farmhand", apr + 2017, today, false],
 	["developer and designer&nbsp;&nbsp;", "work", "mcm", sep + 2014, mar + 2017, true],
 	["program coordinator&nbsp;&nbsp;", "work", "cia", jun + 2013, sep + 2013, false],
 	["assistant&nbsp;&nbsp;", "work", "cradle", jun + 2011, jun + 2012, false],
@@ -458,7 +465,7 @@ var aboutMe = [
 
 	filler,
 
-    ["driver&nbsp;&nbsp;", "work", "driver", dec + 2015, today, false],
+        ["driver&nbsp;&nbsp;", "work", "driver", dec + 2015, mar + 2017, false],
 	["ra&nbsp;&nbsp;", "college", "finkel", sep + 2013, jun + 2014, true],
 	["ra&nbsp;&nbsp;", "college", "psych", jan + 2013, jun + 2013, false],
 	["ta&nbsp;&nbsp;", "hs", "math", sep + 2009, jun + 2010, false],
