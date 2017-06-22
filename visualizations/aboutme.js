@@ -72,7 +72,7 @@ function addListeners() {
                 case "movies":
                     string = "<h4>movies</h4>";
                     string += "<div id='duration'><i>Feb 2014 - present</i></div>";
-                    string += "I've never been much of a movie person, so things got interesting when I started dating a movie fanatic. We watched and wrote about more than 100 movies in a year, which is probably several times as many movies as I'd seen in the prior decade. I learned that I like easygoing dramas (not to be mistaken with melodrama) about complicated relationships, and that I still don't like horror or fantasy.";
+                    string += "I've never been much of a movie person, so things got interesting when I started dating a movie fanatic. We watched and wrote about more than 100 movies in a year, which is probably several times as many movies as I'd seen in the prior decade. I enjoyed the exercise, so I continue to keep track of the movies I watch (though I don't always write about them).";
                     $("#bubble").html(string);
                     break;
                 case "cry":
@@ -161,9 +161,9 @@ function addListeners() {
                     string += "One day I joke-threatened to use a Google calendar to keep track of all the time I spent with a guy I met online, and then I actually followed through. The ability to know exactly how many minutes we'd spent together was so intoxicating that I decided to do it for everyone else too. They say it takes 10,000 hours to become an expert in something... And I've spent way too many hours dating.";
                     $("#bubble").html(string);
                     break;
-                case "date2":
-                    string = "<h4>date2</h4>";
-                    string += "I still keep track of the fellows I meet, but in much, much less detail.";
+                case "money":
+                    string = "<h4>$$$</h4>";
+                    string += "When I quit my full time job to travel &quot;the world&quot; while looking for freelance work, I began tracking my expenses to get a sense of how sustainable the new lifestyle would be.";
                     $("#bubble").html(string);
                     break;
                 case "texts":
@@ -377,7 +377,7 @@ function addListeners() {
                 case "shelter":
                     string = "<h4>volunteer</h4>";
                     string += "<div id='duration'><i>Oct 2016 - present</i></div>";
-                    string += "I volunteer once a week at a shelter for adult single women. Usually I man the front desk, buzzing people in and distributing supplies and signing off when the women are done with chores, so that the people with proper training can go make better use of their time while I'm there :)";
+                    string += "I volunteered once a week at a shelter for adult single women. Usually I manned the front desk, buzzing people in and distributing supplies and providing a signature when the women did their chores, so that the people with proper training could go make better use of their time :)";
                     $("#bubble").html(string);
                     break;
 
@@ -438,9 +438,9 @@ var aboutMe = [
 	["books&nbsp;", "me", "books", jan + 2016, today, false],
     ["52 weeks&nbsp;&nbsp;", "me", "52weeks", sep + 2012, nov + 2013, true],
 	["maestro&nbsp;&nbsp;", "me", "maestro", dec + 2013, jan + 2015, false],
-    ["movies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", "me", "movies", jul + 2015, jul + 2016, false],
+    ["movies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", "me", "movies", jul + 2015, present, false],
 	["date&nbsp;&nbsp;&nbsp;", "me", "date", aug + 2012, oct + 2015, true],
-    ["date2&nbsp;&nbsp;&nbsp;", "me", "date2", nov + 2015, today, false],
+    ["$$$&nbsp;&nbsp;&nbsp;", "me", "money", mar + 2017, today, false],
 	["okanalytics&nbsp;&nbsp;", "me", "okc", jul+ 2012, jul + 2013, true],
 	["sorry&nbsp;&nbsp;", "me", "sorry", aug + 2013, jun + 2014, false],
 	["emotions&nbsp;&nbsp;", "me", "emotions", jul + 2014, today, false],
