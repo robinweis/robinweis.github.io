@@ -438,7 +438,7 @@ var aboutMe = [
 	["books&nbsp;", "me", "books", jan + 2016, today, false],
     ["52 weeks&nbsp;&nbsp;", "me", "52weeks", sep + 2012, nov + 2013, true],
 	["maestro&nbsp;&nbsp;", "me", "maestro", dec + 2013, jan + 2015, false],
-    ["movies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", "me", "movies", jul + 2015, present, false],
+    ["movies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", "me", "movies", jul + 2015, today, false],
 	["date&nbsp;&nbsp;&nbsp;", "me", "date", aug + 2012, oct + 2015, true],
     ["$$$&nbsp;&nbsp;&nbsp;", "me", "money", mar + 2017, today, false],
 	["okanalytics&nbsp;&nbsp;", "me", "okc", jul+ 2012, jul + 2013, true],
