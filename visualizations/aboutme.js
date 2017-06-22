@@ -132,7 +132,7 @@ function addListeners() {
                     $("#bubble").html(string);
                     break;
 		case "memories":
-                    string = "<h4>memories</h4>";
+                    string = "<h4>keepsakes</h4>";
                     string += "I've kept every wristband, ticket stub, nametag, business card, ID, etc. for as long as I remember. The keepsakes are sorted by eras in my life (high school, college, travel, etc.) and are pinned up on bulletin boards or kept organized in ziplock bags. I appreciate the memories that the collages evoke, and continue to collect because sometimes sentimentalism is more important than minimalism.";
                     $("#bubble").html(string);
                     break;	    
@@ -457,7 +457,7 @@ var aboutMe = [
 	["emotions&nbsp;&nbsp;", "me", "emotions", jul + 2014, today, false],
     ["texts/memos&nbsp;&nbsp;", "me", "texts", jun + 2012, today, true],
 	["journey of a bird&nbsp;&nbsp;", "me", "journal", dec + 2005, today, true],
-        ["&laquo;&nbsp;memories&nbsp;&nbsp;", "me", "memories", sep + 2005, today, true],
+        ["&laquo;&nbsp;keepsakes&nbsp;&nbsp;", "me", "memories", sep + 2005, today, true],
 	["identity/ghostship", "me", "ghostship", nov + 2013, today, true],
 
 	filler,
