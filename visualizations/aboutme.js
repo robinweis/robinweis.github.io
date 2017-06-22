@@ -126,6 +126,16 @@ function addListeners() {
                     $("#bubble").html(string);
                     $('#context').css('cursor', 'pointer');
                     break;
+		case "letters":
+                    string = "<h4>snail mail</h4>";
+                    string += "There's nothing that says &quot;I'm thinking of you&quot; quite like a good ol'-fashioned handwritten letter. People don't usually write back, but the joy that I know I provide for other people makes it totally worthwhile. I take photos of every letter I send, and I keep every letter I recieve. If you would like to receive a handwritten letter, feel free to email me your postal address!";
+                    $("#bubble").html(string);
+                    break;
+		case "memories":
+                    string = "<h4>memories</h4>";
+                    string += "I've kept every wristband, ticket stub, nametag, business card, ID, etc. for as long as I remember. The keepsakes are sorted by eras in my life (high school, college, travel, etc.) and are pinned up on bulletin boards or kept organized in ziplock bags. I appreciate the memories that the collages evoke, and continue to collect because sometimes sentimentalism is more important than minimalism.";
+                    $("#bubble").html(string);
+                    break;	    
                 case "spaghettinest":
                     string = "<h4>spaghetti nest</h4>";
                     string += "<div id='duration'><i>Oct 2012 - Sep 2015</i></div>";
@@ -433,6 +443,7 @@ var aboutMe = [
 	["robinwe.is&nbsp;&nbsp;", "me", "website", mar + 2015, today, true],
     ["dream&nbsp;&nbsp;", "me", "dream", apr + 2013, jul + 2014, true],
 	["work&nbsp;&nbsp;", "me", "wrk", jan + 2015, oct + 2015, false],
+	["snail mail&nbsp;&nbsp;", "me", "letters", feb + 2013, today, true],
 	["context&nbsp;&nbsp;", "me", "context", jan + 2013, today, true],
 	["spaghetti nest&nbsp;&nbsp;", "me", "spaghettinest", oct + 2012, sep + 2015, true],
 	["books&nbsp;", "me", "books", jan + 2016, today, false],
@@ -446,6 +457,7 @@ var aboutMe = [
 	["emotions&nbsp;&nbsp;", "me", "emotions", jul + 2014, today, false],
     ["texts/memos&nbsp;&nbsp;", "me", "texts", jun + 2012, today, true],
 	["journey of a bird&nbsp;&nbsp;", "me", "journal", dec + 2005, today, true],
+        ["&laquo;&nbsp;memories&nbsp;&nbsp;", "me", "memories", sep + 2005, today, true],
 	["identity/ghostship", "me", "ghostship", nov + 2013, today, true],
 
 	filler,
