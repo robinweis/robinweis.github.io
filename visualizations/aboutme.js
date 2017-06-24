@@ -198,7 +198,7 @@ function addListeners() {
                 //
 
                 case "mcm":
-                    string = "<h4>software developer</h4>";
+                    string = "<h4>designer and developer</h4>";
                     string += "<div id='duration'><i>Sep 2014 - present</i></div>";
                     string += "Doing a hodgepodge of tech work (front end, back end, security, design) for an industrial supply company. I was very fortunate to receive training despite having little programming experience before starting here.";
                     $("#bubble").html(string);
@@ -401,7 +401,7 @@ function addListeners() {
                 case "driver":
                     string = "<h4>Driver</h4>";
                     string += "<div id='duration'><i>Jan 2016 - present</i></div>";
-                    string += "I had such a positive experience being an rideshare passenger that I decided to turn the tables and get paid to have one-off interactions with strangers instead. I didn't do it super often, but it was a way fun way to mitigate the expenses of owning a car while meeting people that you're never obligated to talk to again.";
+                    string += "I had such a positive experience being an rideshare passenger that I decided to turn the tables and get paid to have one-off interactions with strangers instead. I didn't do it super often, but it was a fun way to mitigate the expenses of owning a car while meeting people that you're never obligated to talk to again.";
                     $("#bubble").html(string);
                     break;
                    }
