@@ -12,144 +12,7 @@
 <style media="screen" type="text/css">
 
 
-html {
-  /*font-family: 'Patrick Hand', cursive;*/
-  font-family: 'Open Sans', sans-serif;
-  color: #444444;
-  box-sizing:border-box;
-  background: #f5f5f5;
-}
 
-body {
-    margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #0099cc;
-}
-
-.thumbnails img {
-  max-height: 80px;
-  padding: 20px;
-  max-width: 300px;
-}
-
-#header {
-  padding-bottom: 20px;
-  padding-left: 5%;
-  height: 100px;
-  background: #4a4a4a;
-  font-size: 64px;
-  box-shadow: 0px 1px 5px #555555;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  width: 100%;
-  z-index: 10000;
-}
-
-#name {
-  font-size: 64pt;
-  font-family: 'Patrick Hand', cursive;
-  color: #eaeaea;
-}
-
-#container {
-}
-
-#left-nav {
-  font-family: 'Varela Round', sans-serif;
-  padding-top: 60px;
-  padding-left: 5%;
-  padding-right: 5%;
-  position: fixed;
-  left: 0px;
-  top: 100px;
-  width: 20%;
-  background: #eeeeee;
-  height: 100%;
-  z-index: 100;
-  box-shadow: 1px 0px 5px #cccccc;
-}
-
-#footer {
-  position: fixed;
-  bottom: 0px;
-  left: 0px;
-  color: #eeeeee;
-  background: #555555;
-  width: 22.5%;
-  padding-top: 4px;
-  padding-bottom: 3px;
-  padding-left: 5%;
-  padding-right: 2.5%;
-  box-shadow: 1px 0px 5px #999999;
-  z-index: 101;
-  text-align: right;
-}
-
-#content {
-  font-family: 'Open Sans', sans-serif;
-  position: absolute;
-  width: 60%;
-  padding-top: 160px;
-  padding-left: 35%;
-  padding-right: 5%;
-  height: 100%;
-  font-size: 16pt;
-}
-
-#arrow {
-  position: absolute;
-  font-size: 34px;
-  margin-top: -10px;
-  margin-left: -20px;
-}
-
-#photos {
-  padding-top: 50px;
-  text-align: center;
-}
-
-#me {
-  text-align: center;
-}
-
-#me img {
-  max-width: 300px;
-}
-
-#photos img {
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 50px;
-}
-
-.fancy {
-  font-size: 22px;
-  font-family: 'Slabo 27px', serif;
-  color: #777777;
-}
-
-.section {
-  margin-bottom: 30px;
-}
-
-.title {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
-  font-size: 14pt;
-}
-
-.subheader {
-  color: #777777;
-  font-size: 14pt;
-}
-
-.homefont {
-  font-size: 20pt;
-}
 
 </style>
 
@@ -161,32 +24,49 @@ a {
     </div>
     <div id="container">
       <div id="left-nav">
-        <div id="arrow">&#8227;</div>
         
-        <div class="section">
+        <a href="portfolio.html">
+        <div class="section selected">
+          <div class="arrow">&#8227;</div>
           <div class="title">About Me</div>
           <div class="subheader">UX and Information Designer</div>
         </div>
+        </a>
         
+        <!--
         <div class="section">
           <div class="title">Customer Preferences</div>
           <div class="subheader">UX and Visual Design</div>
         </div>
+        -->
         
+        <a href="dashboard.html">
          <div class="section">
           <div class="title">Delivery Estimate Dashboard</div>
           <div class="subheader">UX Facilitator</div>
         </div>
+        </a>
         
+        <a href="infographics.html">
          <div class="section">
           <div class="title">Research Infographics</div>
           <div class="subheader">Information Design</div>
         </div>
+        </a>
         
+        <!--
+         <div class="section">
+          <div class="title">Travel Journals</div>
+          <div class="subheader">Data Visualization</div>
+        </div>
+        -->
+        
+         <!--
          <div class="section">
           <div class="title">18 Months of Crying</div>
           <div class="subheader">Data Journalism</div>
         </div>
+        -->
         
         <div id="footer">robin@robinwe.is</div>
       </div>
@@ -209,9 +89,10 @@ This challenge was outsourced as a capstone project for technical orientation tr
         
         <br>
         
-        <div class="homefont">Hi, I'm Robin. I'm a UX and information designer. I have a tendency towards minimalism and an <a href="https://www.robinwe.is" target="_blank">affection for data viz</a>.</div>
+        <div class="homefont">Hi, I'm Robin. I'm a UX and information designer. I have a tendency towards minimalism and an <a href="http://www.robinwe.is" target="_blank">affection for data viz</a>.</div>
         
-        <div id="photos" class="thumbnails">
+        <br>
+        <div class="logos">
           <div class="fancy">~ FEATURED ON ~</div>
           <br><br>
           
