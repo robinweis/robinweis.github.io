@@ -156,6 +156,10 @@ a li:hover/*, .selected .title:hover*/ {
   max-height: 200px;
 }
 
+.thumbnails-xlarge img {
+  max-height: 250px;
+}
+
 #me {
   text-align: center;
 }
