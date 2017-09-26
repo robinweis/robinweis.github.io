@@ -20,6 +20,7 @@ a {
   color: #444444;
 }
 
+
 .logos img {
   max-height: 80px;
   padding: 20px;
@@ -77,9 +78,32 @@ a {
 	background-color: rgba(0,153,204,.1);
 }
 
-a li:hover/*, .selected .title:hover*/ {
- color: rgba(0,153,204,.8);
+#nav-header {
+   background: #dddddd;
+   width: 740px;
+   height: 85px;
+   left: 30%;
+   top: 105px;
+   position: fixed;
+   padding-top: 10px;
+   /*text-transform: uppercase;*/
+   text-align: center;
+   box-shadow: 1px 0px 5px #999999;
+
 }
+
+#nav-header .nav-list-item {
+	/*list-style-type: none;*/
+	display: table-cell; 
+	padding-right: 30px;
+	color: #444444;
+	padding-bottom: 5px;
+}
+
+.nav-list-item:hover {
+color: rgba(0,153,204,.8) !important;
+}
+
 
 #footer {
   position: fixed;
@@ -100,18 +124,8 @@ a li:hover/*, .selected .title:hover*/ {
 #content {
   font-family: 'Open Sans', sans-serif;
   position: absolute;
-  max-width: 740px;
-  padding-top: 160px;
-  padding-left: 35%;
-  padding-right: 5%;
-  height: 100%;
-  font-size: 14pt;
-}
-
-#content {
-  font-family: 'Open Sans', sans-serif;
-  position: absolute;
   width: 60%;
+  max-width: 740px;
   padding-top: 160px;
   padding-left: 35%;
   padding-right: 5%;
@@ -140,7 +154,7 @@ a li:hover/*, .selected .title:hover*/ {
 .anchor {
     display: block;
     position: relative;
-    top: -160px;
+    top: -200px;
     visibility: hidden;
 }
 
