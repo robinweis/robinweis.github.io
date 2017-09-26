@@ -50,6 +50,27 @@ a {
   color: #eaeaea;
 }
 
+#email {
+position: fixed;
+z-index: 10000000;
+left: 432px;
+top: 71px;
+color: #eaeaea;
+font-size: 16px;
+}
+
+.soc-icons img {
+	position: fixed;
+	z-index: 10000000;
+	width: 30px;
+	left: 432px;
+	top: 34px;
+}
+
+.soc-icons #fb {
+	left: 470px;
+}
+
 #container {
 }
 
@@ -80,17 +101,19 @@ a {
 
 #nav-header {
    background: #dddddd;
-   width: 740px;
+   width: 760px;
    height: 85px;
    left: 30%;
    top: 105px;
    position: fixed;
+   margin-left: -20px;
    padding-top: 10px;
    /*text-transform: uppercase;*/
    text-align: center;
    box-shadow: 1px 0px 5px #999999;
 
 }
+
 
 #nav-header .nav-list-item {
 	/*list-style-type: none;*/
