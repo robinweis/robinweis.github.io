@@ -427,13 +427,13 @@ h2 {
     overflow: visible !important;
 }
 
-img.graph, svg.graph {
+img.graph {
     position: relative;
     max-width: 124% !important;
     left: -12%;
 }
 
-img.photo, svg.photo {
+img.photo {
     position: relative;
     max-width: 70% !important;
 }
