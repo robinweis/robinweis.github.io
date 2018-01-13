@@ -448,6 +448,10 @@ img.photo {
 	max-width: 70% !important;
 }
 
+.long-distance {
+	max-width: 80% !important;
+}
+
 #exploration-container ul {
     margin-top: 0;
 }
