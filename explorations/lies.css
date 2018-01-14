@@ -439,7 +439,7 @@ img.photo {
 }
 
 .who-talked-about-what {
-	Max-height: 350px;
+	Max-height: 410px;
 }
 
 
@@ -450,6 +450,10 @@ img.photo {
 
 .long-distance {
 	max-width: 80% !important;
+}
+
+.types-of-conversations {
+	max-width: 52% !important;
 }
 
 #exploration-container ul {
