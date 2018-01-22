@@ -1,4 +1,5 @@
 var buildLayout = function() {
+	$('#logo-placeholder').hide();
 	buildHeader();
 	buildBottomNav();
 	addIndexListeners();
@@ -36,7 +37,7 @@ var buildBottomNav = function() {
 
 	//explorations first
 	if (currentPage.indexOf("explorations/sorry") > -1) {
-		$('body').append('<div id="previous"><a href="http://www.robinwe.is/explorations/cry.html">&laquo; previous</a></div>');
+		$('body').append('<div id="previous"><a href="http://www.robinwe.is/explorations/lies.html">&laquo; previous</a></div>');
 		$('body').append('<div id="next"><a href="http://www.robinwe.is/explorations/fridays1314.html">next &raquo;</a></div>');
 		$('body').append('<br><br><br><br><br>');
 	} else if (currentPage.indexOf("explorations/fridays1314") > -1) {
@@ -45,6 +46,10 @@ var buildBottomNav = function() {
 		$('body').append('<br><br><br><br><br>');
 	} else if (currentPage.indexOf("explorations/cry") > -1) {
 		$('body').append('<div id="previous"><a href="http://www.robinwe.is/explorations/fridays1314.html">&laquo; previous</a></div>');
+		$('body').append('<div id="next"><a href="http://www.robinwe.is/explorations/lies.html">next &raquo;</a></div>');
+		$('body').append('<br><br><br><br><br>');
+	} else if (currentPage.indexOf("explorations/lies") > -1) {
+		$('body').append('<div id="previous"><a href="http://www.robinwe.is/explorations/cry.html">&laquo; previous</a></div>');
 		$('body').append('<div id="next"><a href="http://www.robinwe.is/explorations/sorry.html">next &raquo;</a></div>');
 		$('body').append('<br><br><br><br><br>');
 	//then visualizations
