@@ -21,7 +21,7 @@
       <div id="mc_embed_signup">
       <form action="https://robinwe.us10.list-manage.com/subscribe/post?u=c55356974de2fdde9dee221a1&amp;id=367777b2f1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div id="mc_embed_signup_scroll">
-        <h2>Subscribe to our mailing list</h2>
+        <h2>Receive updates for new articles</h2>
       <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
       <div class="mc-field-group">
         <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -61,6 +61,7 @@
   </head>
   <body onload='buildLayout();'>
     <div id="main-content-container">
+    	<div id="logo-placeholder" style="display:fixed; height: 170px;"></div>
       <div id="exploration-container">
             <br />
             <h1>The Anatomy of a Lie</h1>
@@ -69,7 +70,7 @@
 <i>L, if you are reading this: I am so sorry.</i><br><br>
 
 
-<p>On November 8, 2014, I learned that my long-distance boyfriend of one year, "Ad," was not who he said he was. In addition to adopting a completely fake name, he had made me, and dozens before me, an unknowing other-woman to his wife of five years. I was a starry-eyed 22-year-old living in Chicago. He was a professional 33-year-old working in Boston.</p>
+<p>On November 8, 2014, I learned that my long-distance boyfriend of one year, "Ad" (short for "Adam"), was not who he said he was. In addition to adopting a completely fake name, he had made me, and dozens before me, an unknowing other-woman to his wife of five years. I was a starry-eyed 22-year-old living in Chicago. He was a professional 33-year-old working in Boston.</p>
 
 <p>Unlike many catfishing scenarios (but not unlike many affairs), we regularly saw each other face-to-face. We had met through an online community, and his "identity" was corroborated by numerous mutual friends that we'd both met off-screen. Ad was well-known and well-liked and had even dated several people I knew. It never would have occurred to me that he wasn't real.</p>
 
@@ -96,7 +97,7 @@ an average of 20% of each month together.</div>
 <p>But time went on and our relationship intensified. We talked for hours every day via instant messenger, relating to each other in ways we hadn't known were possible. We found it easy to be vulnerable with each other, expressing feelings and fears and conflicts and concerns in ways that felt <em>enjoyable</em>. Our relationship didn't have a label, but his frequent check-ins made me feel secure.</p>
 
 
-<p>To tighten the gap that we felt in our physical distance, we constructed an network of Google spreadsheets pertaining to different parts of our relationship. One tab featured a thorough list of things that we wanted to talk to each other about. Another detailed things we wanted to do when we got together in person. A third kept each other accountable with daily self-care (like brushing our teeth and getting enough sleep). There were 16 tabs in all. It gave us something to do together.</p>
+<p>To tighten the gap that we felt in our physical distance, we constructed a network of Google spreadsheets pertaining to different parts of our relationship. One tab featured a thorough list of things that we wanted to talk to each other about. Another detailed things we wanted to do when we got together in person. A third kept each other accountable with daily self-care (like brushing our teeth and getting enough sleep). There were 16 tabs in all. It gave us something to do together.</p>
 
 <img class="graph" src="http://www.robinwe.is/explorations/lies/to-do.png" />
 <div class="caption">An example of items on our to-do list.</div>
@@ -148,7 +149,7 @@ an average of 20% of each month together.</div>
 
 <p>Half of the topics were things we wanted to discuss, and the other half were stories we wanted to tell. "Stories" could range from anecdotes to opinions, and they generally did not require input from the other person.</p>
 
-<p>Before I found out the truth, Robin Stories (RS) appeared twice as often as Ad Stories (AS). Part of this is because I really liked talking about myself (I was <em>9 times</em> more likely to propose an RS than to request an AS), but I imagine Ad had a harder time talking about himself because he wasn't a real person.</p>
+<p>Before I found out the truth, Robin Stories (RS) appeared twice as often as Ad Stories (AS). Part of this is because I really liked talking about myself (I was <em>nine times</em> more likely to propose an RS than to request an AS), but I imagine Ad had a harder time talking about himself because he wasn't a real person.</p>
 
 <h3>Types of Conversations (Before Truth)</h3>
 
@@ -179,7 +180,6 @@ an average of 20% of each month together.</div>
 
 
 
-           <span class="tooltip">testytestytesttest</span>
 
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1718.4 890">
 
@@ -411,6 +411,8 @@ an average of 20% of each month together.</div>
 
 <path class="cls-4 title" id="love-lies" d="M836.87,537.94l359.95.09a376.42,376.42,0,0,1-15.44-119.24q-90.37,2.43-180.74,5.39c-55.1,1.8-118.66-5.65-172.09,8.27C830.44,442.56,843.64,537.94,836.87,537.94Z" transform="translate(-4.24 -15.73)"/>
 <text class="cls-73 title title-label" id="love-lies-label" transform="translate(860.43 485.9) scale(0.99 1)">L<tspan class="cls-74" x="28.83" y="0">O</tspan><tspan x="60.62" y="0">VE | LIES</tspan></text></svg>
+
+<span class="tooltip">testytestytesttest</span>
 
 <div id="checkbox-container">
 	<div id="select-all-row">
@@ -1023,27 +1025,28 @@ $(".deception-example").mouseout(function(){
 
 
 
-$(".tooltip-group, .main-category, .main-category-label, .title, .title-label").on('mouse enter, touchstart', function(event){
+$(".tooltip-group, .main-category, .main-category-label, .title, .title-label").on('mouseenter touchstart', function(event) {
+
    
    var myClass = $(this).attr("class");
    
-   var left = event.clientX - 390;
-   var top = event.clientY - 255;
+   var left = event.pageX - 390;
+   var top = event.pageY - 280;
    
    if(myClass.includes("main-category")) {
-   	var top = event.pageY - 250;
+   	var top = event.pageY - 265;
    }
    
    if(myClass.includes("main-category-label")) {
-   	var top = event.pageY - 250;
+   	var top = event.pageY - 275;
    }
    
    if(myClass.includes("title")) {
-   	var top = event.pageY - 245;
+   	var top = event.pageY - 270;
    }
    
    if(myClass.includes("title-label")) {
-   	var top = event.pageY - 245;
+   	var top = event.pageY - 270;
    }
    
     //alert($(this).css("transform"))
