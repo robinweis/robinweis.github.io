@@ -191,7 +191,7 @@ text {
 	color: #333333;
 }
 
-Label {
+.css-label {
 	position: absolute;
 	left: -18px;
 	top: 2px;
