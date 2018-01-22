@@ -19,6 +19,7 @@ var buildHeader = function() {
 					$('#visualizations-dropdown').append('<a href="http://www.robinwe.is/visualizations/aboutme.html">about me</a>')
 			$('#nav-container').prepend('<nav class="header-link" id="explorations-link">explorations</nav>')
 				$('#explorations-link').append('<div class="nav-dropdown" id="explorations-dropdown" style="display: none;"></div>')
+					$('#explorations-dropdown').append('<a href="http://www.robinwe.is/explorations/lies.html">lies</a><br />')
 					$('#explorations-dropdown').append('<a href="http://www.robinwe.is/explorations/cry.html">crying</a><br />')
 					$('#explorations-dropdown').append('<a href="http://www.robinwe.is/explorations/fridays1314.html">friday nights: 2013 vs 2014</a><br />')
 					$('#explorations-dropdown').append('<a href="http://www.robinwe.is/explorations/sorry.html">apologies</a>')
