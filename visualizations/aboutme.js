@@ -121,8 +121,8 @@ function addListeners() {
                     break;
                 case "context":
                     string = "<h4>context</h4>";
-                    string += "<div id='duration'><i>Jan 2013 - present</i></div>";
-                    string += "This log began as a piece of lined paper taped to the wall next to my bed meant to contain one thing that made me happy everyday, but it has since blossomed into a daily journal where I write about pretty much everything. Every day. Since 2013.";
+                    string += "<div id='duration'><i>Jan 2013 - Dec 2017</i></div>";
+                    string += "This log began as a piece of lined paper taped to the wall next to my bed meant to contain one thing that made me happy everyday, but it blossomed into a daily journal where I wrote about pretty much everything. Every day. For five years.";
                     $("#bubble").html(string);
                     $('#context').css('cursor', 'pointer');
                     break;
@@ -444,7 +444,7 @@ var aboutMe = [
     ["dream&nbsp;&nbsp;", "me", "dream", apr + 2013, jul + 2014, true],
 	["work&nbsp;&nbsp;", "me", "wrk", jan + 2015, oct + 2015, false],
 	["snail mail&nbsp;&nbsp;", "me", "letters", feb + 2013, today, true],
-	["context&nbsp;&nbsp;", "me", "context", jan + 2013, today, true],
+	["context&nbsp;&nbsp;", "me", "context", jan + 2013, dec + 2017, true],
 	["spaghetti nest&nbsp;&nbsp;", "me", "spaghettinest", oct + 2012, sep + 2015, true],
 	["books&nbsp;", "me", "books", jan + 2016, today, false],
     ["52 weeks&nbsp;&nbsp;", "me", "52weeks", sep + 2012, nov + 2013, true],
