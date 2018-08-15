@@ -462,7 +462,7 @@ var aboutMe = [
 	["robinwe.is&nbsp;&nbsp;", "me", "website", mar + 2015, today, true],
     ["dream&nbsp;&nbsp;", "me", "dream", apr + 2013, jul + 2014, true],
 	["work&nbsp;&nbsp;", "me", "wrk", jan + 2015, oct + 2015, false],
-	["memory dump&nbsp;&nbsp;", "me", "memory", mar + 2017, present, false],
+	["memory dump&nbsp;&nbsp;", "me", "memory", mar + 2017, today, false],
 	["snail mail&nbsp;&nbsp;", "me", "letters", feb + 2013, today, true],
 	["context&nbsp;&nbsp;", "me", "context", jan + 2013, dec + 2017, true],
 	["trash&nbsp;&nbsp;", "me", "trash", apr + 2018, jun + 2018, false],
@@ -512,7 +512,7 @@ var aboutMe = [
 	filler,
 
     	["quantified self&nbsp;&nbsp;", "adult", "qs", jun + 2015, mar + 2017, false],
-	["travel&nbsp;&nbsp;", "adult", "travel", apr + 2017, present, false],
+	["travel&nbsp;&nbsp;", "adult", "travel", apr + 2017, today, false],
   	["volunteer&nbsp;&nbsp;", "adult", "shelter", oct + 2016, mar + 2017, true],
 	["sigma alpha iota&nbsp;&nbsp;", "college", "sai", apr + 2011, jun + 2014, false],
 	["good karma&nbsp;&nbsp;", "hs", "goodkarma", sep + 2007, jun + 2009, false],
