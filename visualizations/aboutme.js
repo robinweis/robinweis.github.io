@@ -113,6 +113,12 @@ function addListeners() {
                     string += "Relatively new at my job and in need of a New Year's Resolution, I began tracking how I spent my time at work. This spreadsheet was the design inspiration for a mobile tracking app that I currently sort of have in development. More info coming soon.";
                     $("#bubble").html(string);
                     break;
+		case "memory":
+                    string = "<h4>memory dumps</h4>";
+                    string += "<div id='duration'><i>Mar 2017 - present</i></div>";
+                    string += "Whenever I close a chapter in my life, I write or record everything I can remember about it in as much detail as possible. Maybe I'll never care to read back on the personalities of all 18 goats at the farm in Anchor Point, but at least I'll have the option.";
+                    $("#bubble").html(string);
+                    break;
                 case "dream":
                     string = "<h4>dream</h4>";
                     string += "<div id='duration'><i>Apr 2013 - Jul 2014</i></div>";
@@ -125,6 +131,13 @@ function addListeners() {
                     string += "This log began as a piece of lined paper taped to the wall next to my bed meant to contain one thing that made me happy everyday, but it blossomed into a daily journal where I wrote about pretty much everything. Every day. For five years.";
                     $("#bubble").html(string);
                     $('#context').css('cursor', 'pointer');
+                    break;
+		case "trash":
+                    string = "<h4>trash</h4>";
+                    string += "<div id='duration'><i>Apr 2018 - Jun 2018</i></div>";
+                    string += "Inspired by some zero-waste folks I met at an environmental NGO in Dharamshala, I took pictures of all the waste I threw away while traveling in Eastern Asia. Most of it was packaging from junk food.";
+                    $("#bubble").html(string);
+                    $('#trash').css('cursor', 'pointer');
                     break;
 		case "letters":
                     string = "<h4>snail mail</h4>";
@@ -257,10 +270,10 @@ function addListeners() {
                     string += "Finally gaining the courage to be the center ref in soccer and learning how to officiate volleyball and floor hockey.";
                     $("#bubble").html(string);
                     break;
-		case "farmhand":
-                    string = "<h4>farmhand</h4>";
-                    string += "<div id='duration'><i>Mar 2011 - Jun 2013</i></div>";
-                    string += "Working with goats, sheep, rabbits, ducks, chicken, pigs, and dogs in rural Alaska.";
+		case "travel":
+                    string = "<h4>travel</h4>";
+                    string += "<div id='duration'><i>Apr 2017 - present</i></div>";
+                    string += "From farming in Alaska to picking up trash in India, I've found numerous work and cultural exchanges to guide and enrich my travels.";
                     $("#bubble").html(string);
                     break;
 
@@ -404,6 +417,12 @@ function addListeners() {
                     string += "I had such a positive experience being an rideshare passenger that I decided to turn the tables and get paid to have one-off interactions with strangers instead. I didn't do it super often, but it was a fun way to mitigate the expenses of owning a car while meeting people that you're never obligated to talk to again.";
                     $("#bubble").html(string);
                     break;
+		case "counselor":
+                    string = "<h4>Counselor</h4>";
+                    string += "<div id='duration'><i>Jun 2018 - Aug 2018</i></div>";
+                    string += "I spent a summer working as a counselor at an English camp in Ukraine, despite never having worked with children or attended camp myself.";
+                    $("#bubble").html(string);
+                    break;
                    }
 	        }
 	});
@@ -443,8 +462,10 @@ var aboutMe = [
 	["robinwe.is&nbsp;&nbsp;", "me", "website", mar + 2015, today, true],
     ["dream&nbsp;&nbsp;", "me", "dream", apr + 2013, jul + 2014, true],
 	["work&nbsp;&nbsp;", "me", "wrk", jan + 2015, oct + 2015, false],
+	["memory dump&nbsp;&nbsp;", "me", "memory", mar + 2017, present, false],
 	["snail mail&nbsp;&nbsp;", "me", "letters", feb + 2013, today, true],
 	["context&nbsp;&nbsp;", "me", "context", jan + 2013, dec + 2017, true],
+	["trash&nbsp;&nbsp;", "me", "trash", apr + 2018, jun + 2018, false],
 	["spaghetti nest&nbsp;&nbsp;", "me", "spaghettinest", oct + 2012, sep + 2015, true],
 	["books&nbsp;", "me", "books", jan + 2016, today, false],
     ["52 weeks&nbsp;&nbsp;", "me", "52weeks", sep + 2012, nov + 2013, true],
@@ -469,7 +490,8 @@ var aboutMe = [
 	["assistant referee&nbsp;&nbsp;", "work", "pegasus", apr + 2007, jun + 2010, true],
 	["referee&nbsp;&nbsp;", "work", "nuim", mar + 2011, jun + 2013, false],
 	["developer and designer&nbsp;&nbsp;", "work", "mcm", sep + 2014, mar + 2017, true],
-	["farmhand&nbsp;&nbsp;", "work", "farmhand", apr + 2017, today, false],
+	["counselor&nbsp;&nbsp;", "work", "counselor", jun + 2018, aug + 2018, false],
+	
 	["program coordinator&nbsp;&nbsp;", "work", "cia", jun + 2013, sep + 2013, false],
 	["assistant&nbsp;&nbsp;", "work", "cradle", jun + 2011, jun + 2012, false],
 	["tutor&nbsp;&nbsp;", "work", "tutor", sep + 2012, may + 2013, false],
@@ -489,8 +511,9 @@ var aboutMe = [
 
 	filler,
 
-    ["quantified self&nbsp;&nbsp;", "adult", "qs", jun + 2015, mar + 2017, false],
-  ["volunteer&nbsp;&nbsp;", "adult", "shelter", oct + 2016, mar + 2017, true],
+    	["quantified self&nbsp;&nbsp;", "adult", "qs", jun + 2015, mar + 2017, false],
+	["travel&nbsp;&nbsp;", "adult", "travel", apr + 2017, present, false],
+  	["volunteer&nbsp;&nbsp;", "adult", "shelter", oct + 2016, mar + 2017, true],
 	["sigma alpha iota&nbsp;&nbsp;", "college", "sai", apr + 2011, jun + 2014, false],
 	["good karma&nbsp;&nbsp;", "hs", "goodkarma", sep + 2007, jun + 2009, false],
 	["actuary club&nbsp;&nbsp;", "college", "actuary", jan + 2011, mar + 2013, true],
