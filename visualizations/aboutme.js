@@ -558,7 +558,9 @@ var aboutMe = [
   ["|", "tick", "2017tick", 2017, 2018, false],
 	["2017", "timeline", "2017", 2017, 2018, false],
   ["|", "tick", "2018tick", 2018, 2019, false],
-	["PRESENT", "timeline", "2018", 2018, 2019, false]
+	["2018", "timeline", "2018", 2018, 2019, false],
+  ["|", "tick", "2019tick", 2019, 2020, false],
+	["PRESENT", "timeline", "2019", 2019, 2020, false]
 ];
 
 var setWidth = function(entryStartTime, entryEndTime) {
