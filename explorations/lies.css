@@ -220,23 +220,23 @@ input[type=checkbox].css-checkbox {
 						}
 
 						input[type=checkbox].css-checkbox + label.css-label {
-							padding-left:19px;
-							height:14px; 
+							padding-left:21px;
+							height:16px; 
 							display:inline-block;
-							line-height:14px;
+							line-height:16px;
 							background-repeat:no-repeat;
 							background-position: 0 0;
-							font-size:14px;
+							font-size:16px;
 							vertical-align:middle;
 							cursor:pointer;
 
 						}
 
 						input[type=checkbox].css-checkbox:checked + label.css-label {
-							background-position: 0 -14px;
+							background-position: 0 -16px;
 						}
 						label.css-label {
-				background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_5ed3110c2dbfa898cff4fe25b69ceb41.png);
+				background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_81f722579f9a47fe19127e2f016b3c37.png);
 				-webkit-touch-callout: none;
 				-webkit-user-select: none;
 				-khtml-user-select: none;
