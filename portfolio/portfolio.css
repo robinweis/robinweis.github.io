@@ -44,6 +44,10 @@ a {
   z-index: 10000;
 }
 
+h3 {
+    font-style: italic;
+} 
+
 #name {
   font-size: 64pt;
   font-family: 'Patrick Hand', cursive;
@@ -244,4 +248,50 @@ color: rgba(0,153,204,.8) !important;
   margin-right: 10%;
   margin-top: -8px;
   margin-bottom: 10px;
+}
+
+.resume-container {
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.resume-text {
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  font-family: Nunito;
+  font-size: 11pt;
+  padding-bottom: 15px;
+}
+
+.resume-text .resume-header {
+  padding-top: 20px;
+  font-family: Comfortaa;
+  font-size: 12pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  line-height: 13.2px;
+}
+
+.job-title {
+  /*font-weight: 900;*/
+  display:inline;
+}
+
+.resume-header {
+  padding: 0%;
+  margin: 0%;  
+}
+
+.resume-text ul, .resume-text p {
+  padding-top: 3px;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.resume-text ul {
+  padding-inline-start: 30px;
 }
