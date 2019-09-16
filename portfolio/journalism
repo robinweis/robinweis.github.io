@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Robin Weis | www.robinwe.is</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <script src="http://robinwe.is/home.js"></script>
+    <script src="portfolio.js"></script>
+    <!--<link rel="stylesheet" type="text/css" href="http://robinwe.is/home.css">-->
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link rel="stylesheet" type="text/css" href="slideshow.css">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Varela+Round|Pacifico|Comfortaa|Open+Sans|Patrick+Hand|Slabo+27px|Quicksand|Nunito" rel="stylesheet">
+	  
+<style media="screen" type="text/css">
+
+
+</style>
+
+
+  </head>
+  
+  <body>
+    <div id="header">
+      <a href="/portfolio/"><span id="name">ROBIN WEIS</span></a>
+      <span id="email">robin@robinwe.is</span>
+      <span class="soc-icons">
+    	  <a href="https://www.linkedin.com/in/rweis/"><img src="http://robinwe.is/portfolio/Linkedin.png"></img></a>
+    	  <a href="https://www.facebook.com/robin.weis2"><img src="http://robinwe.is/portfolio/Facebook.png" id="fb"></img></a>
+      </span>
+    </div>
+    <div id="container">
+      <div id="left-nav">
+        
+        <a href="/portfolio/">
+        <div class="section">
+          <div class="title">About Me</div>
+          <div class="subheader">UX and Information Designer</div>
+        </div>
+        </a>
+        
+        <a href="journalism.html">
+        <div class="section selected">
+         <div class="arrow">&#8227;</div>
+          <div class="title">www.robinwe.is</div>
+          <div class="subheader">Data Journalism & Design</div>
+        </div>
+        </a>
+        
+        <!--
+        <div class="section">
+          <div class="title">Customer Preferences</div>
+          <div class="subheader">UX and Visual Design</div>
+        </div>
+        -->
+        
+        <a href="dashboard.html">
+        <div class="section">
+          <div class="title">Delivery Estimate Dashboard</div>
+          <div class="subheader">UX Facilitation</div>
+        </div>
+        </a>
+        
+        <a href="infographics.html">
+         <div class="section">
+          <div class="title">Research Infographics</div>
+          <div class="subheader">Information Design</div>
+        </div>
+        </a>
+        
+        <a href="travel.html">
+         <div class="section">
+          <div class="title">My "Unemployment Gap"</div>
+          <div class="subheader">Travel CV & Data Visualization</div>
+        </div>
+        </a>
+        
+         <!--
+         <div class="section">
+          <div class="title">18 Months of Crying</div>
+          <div class="subheader">Data Journalism</div>
+        </div>
+        -->
+        
+        <!--<div id="footer">robin@robinwe.is</div>-->
+      </div>
+      
+      <div id="content">
+        <h2>Showcasing Personal Projects</h2>
+        <p>Data visualization has been a hobby of mine for more than a decade. It began as sketches crafted in Microsoft Paint, and has blossomed into interactive visualizations that utilize Adobe Illustrator and several programming languages (mostly jQuery, CSS, and Canvas). My work has been featured on Vox, CBC’s Spark, NHPR's Word of Mouth, Data Driven Journalism, and at conferences internationally. Here are some samples of data visualizations from my articles and presentations:</p>
+        <div class="photos thumbnails-xxlarge">
+	        <img src="http://robinwe.is/portfolio/lies_interactive.gif"></img>
+	        <img src="http://robinwe.is/portfolio/long_distance_visits_wide.png" class="snip"></img>
+	        <img src="http://robinwe.is/portfolio/lie_pie.gif" class="slide"></img>
+	        <img src="http://robinwe.is/portfolio/guilty_about_availability.png" class="slide"></img>
+	        <img src="http://robinwe.is/portfolio/truth_changed_conversation.png" class="slide"></img>
+	        <img src="http://robinwe.is/portfolio/number_of_contributions_wide.png" class="snip"></img>	<img src="http://robinwe.is/portfolio/types_of_conversations_wide.png" class="snip"></img>
+	        <img src="http://robinwe.is/portfolio/stages_of_grief.png" class="slide"></img>
+	        <img src="http://robinwe.is/portfolio/deception_inspired_emotions.png" class="slide"></img>
+	        <img src="http://robinwe.is/portfolio/glimpse_of_the_data.gif" class="slide"></img>
+        </div>
+        <br><br><br>
+      </div>
+      
+    </div>
+    
+  <!--<body onload='buildLayout(); addSorryListeners();'>-->
+    <!-- <div id="main-content-container">
+      <div id="exploration-container">
+            <br><br><br><br><br><br><br><br>
+      </div>
+    </div>
+    -->
+  </body>
+
+</html>
+
