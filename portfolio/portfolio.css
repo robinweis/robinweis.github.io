@@ -77,6 +77,10 @@ img {
 	color: #888 !important;
 }
 
+#email {
+	cursor: default;
+}
+
 #social-no-click {
 -webkit-user-select: none; /* Safari 3.1+ */
   -moz-user-select: none; /* Firefox 2+ */
