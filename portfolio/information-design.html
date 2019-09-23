@@ -57,7 +57,9 @@
 			<div class="title">Warehouse Workflow</div>
 			<div class="role">DESIGNER & COPYWRITER</div>
 		</div>
-		<img src="http://robinwe.is/portfolio/receiving_reimagined.png"></img>
+		<img class="main" src="http://robinwe.is/portfolio/receiving_reimagined.png"></img>
+		<img class="still" src="http://robinwe.is/portfolio/receiving_reimagined.png"></img>
+		<img class="gif" src="http://robinwe.is/portfolio/receiving.gif"></img>
 	</div>
 	
 	<div class="thumbnail">
@@ -65,7 +67,8 @@
 			<div class="title">Warehouse Technology</div>
 			<div class="role">DESIGNER & COPYWRITER</div>
 		</div>
-		<img src="http://robinwe.is/portfolio/fulfilling_vision.png"></img>
+		<img class="main" src="http://robinwe.is/portfolio/fulfilling_vision.png"></img>
+		<img class="still" src="http://robinwe.is/portfolio/fulfilling_vision.png"></img>
 	</div>
 	
 	<div class="thumbnail">
@@ -73,7 +76,9 @@
 			<div class="title">Customer Statistics</div>
 			<div class="role">DESIGNER & COPYWRITER</div>
 		</div>
-		<img src="http://robinwe.is/portfolio/quantifying_customers.png"></img>
+		<img class="main" src="http://robinwe.is/portfolio/quantifying_customers.png"></img>
+		<img class="still" src="http://robinwe.is/portfolio/quantifying_customers.png"></img>
+		<img class="gif" src="http://robinwe.is/portfolio/quantifying_customers.gif"></img>
 	</div>
 	
 	<div class="thumbnail">
@@ -81,7 +86,9 @@
 			<div class="title">Work Delegation System</div>
 			<div class="role">DESIGN CONSULTANT</div>
 		</div>
-		<img src="http://robinwe.is/portfolio/fluid_work_distribution.jpg"></img>
+		<img class="main" src="http://robinwe.is/portfolio/fluid_work_distribution.jpg"></img>
+		<img class="still" src="http://robinwe.is/portfolio/fluid_work_distribution.jpg"></img>
+		<img class="gif" src="http://robinwe.is/portfolio/work_distribution.gif"></img>
 	</div>
 	
 	<div class="thumbnail">
@@ -89,7 +96,9 @@
 			<div class="title">Tax Compliance</div>
 			<div class="role">DESIGN CONSULTANT</div>
 		</div>
-		<img src="http://robinwe.is/portfolio/tax_compliance.png"></img>
+		<img class="main" src="http://robinwe.is/portfolio/tax_compliance.png"></img>
+		<img class="still" src="http://robinwe.is/portfolio/tax_compliance.png"></img>
+		<img class="gif" src="http://robinwe.is/portfolio/tax.gif"></img>
 	</div>
 	
 	<!--
@@ -110,12 +119,23 @@
 
 $('.thumbnail-sketch, .thumbnail').on({
      'click': function(){
-         var selectedUrl = $(this).children('img').attr('src');
+         var selectedUrl = $(this).children('.still').attr('src');
          $('#overlay-image').attr("src", selectedUrl);
          $('#image-wrapper').children('img').fadeIn("fast").css("display","block");
          $('#overlay').fadeIn("fast").css("display","block");
      }
  });
+ 
+ 
+$(".thumbnail").hover( function () {
+  var selectedUrl = $(this).children('.gif').attr('src');
+  $(this).children('.main').attr("src", selectedUrl);
+}, function() {
+  var selectedUrl = $(this).children('.still').attr('src');
+  $(this).children('.main').attr("src", selectedUrl);
+});
+
+
  
 $( "#overlay" ).click(function() {
   		 $('#image-wrapper').children('img').fadeOut("fast");

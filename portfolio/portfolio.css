@@ -261,11 +261,17 @@ img {
 
 .thumbnail .caption {
 	text-align: left;
+	cursor: default;
 }
 
 .thumbnail img {
 	max-width: 100%;
 	cursor: pointer;
+	height: 260px;
+}
+
+.gif, .still {
+	display: none;
 }
 
 .title {
