@@ -134,7 +134,7 @@
 
 
 
-$('.thumbnail-sketch, .thumbnail').on({
+$('.thumbnail-sketch').on({
      'click': function(){
          var selectedUrl = $(this).children('.still').attr('src');
          $('#overlay-image').attr("src", selectedUrl);
@@ -143,13 +143,22 @@ $('.thumbnail-sketch, .thumbnail').on({
      }
  });
  
+ $('.thumbnail img').on({
+     'click': function(){
+         var selectedUrl = $(this).siblings('.still').attr('src');
+         $('#overlay-image').attr("src", selectedUrl);
+         $('#image-wrapper').children('img').fadeIn("fast").css("display","block");
+         $('#overlay').fadeIn("fast").css("display","block");
+     }
+ });
  
-$(".thumbnail").hover( function () {
-  var selectedUrl = $(this).children('.gif').attr('src');
-  $(this).children('.main').attr("src", selectedUrl);
+ 
+$(".thumbnail img").hover( function () {
+  var selectedUrl = $(this).siblings('.gif').attr('src');
+  $(this).attr("src", selectedUrl);
 }, function() {
-  var selectedUrl = $(this).children('.still').attr('src');
-  $(this).children('.main').attr("src", selectedUrl);
+  var selectedUrl = $(this).siblings('.still').attr('src');
+  $(this).attr("src", selectedUrl);
 });
 
  
