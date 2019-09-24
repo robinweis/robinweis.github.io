@@ -108,44 +108,78 @@ img {
 .header-basic-light .header-limiter nav a, .contact {
 	display: inline-block;
 	/*padding started at 5px*/
-	padding: 0 8px;
-	opacity: 0.9;
 	text-decoration:none;
 	color: #5c616a;
 	line-height:1;
 	font-weight: bolder;
+	position: relative;
+	opacity: 0.9;
 }
 
-/*.header-basic-light .header-limiter nav a.selected {
-	background-color: #86a3d5;
-	color: #ffffff;
-	border-radius: 3px;
-	padding:6px 8px;
-}*/
-
-.header-basic-light .header-limiter nav a.selected {
-	color: #7392c9;
-	font-weight:bolder;
-	background-color: #eeeeee;
-	border-radius: 3px;
-	padding:6px 8px !important;
-	margin: 0px !important;
+.header-basic-light .header-limiter nav a {
+	padding:6px 4px;
+	margin: 0px 4px;
 }
+
+.contact {
+	margin-right: 8px;
+}
+
+.subnav-container {
+	display: inline-block;
+	text-decoration:none;
+	color: #5c616a;
+	line-height:1;
+	font-weight: bolder;
+	position: relative;
+}
+
+.subnav-container .data-viz-nav {
+	position: absolute;
+}
+
+.subnav-container a {
+	/*background: #f5f5f5;
+	border-bottom: 2px solid #ccc;*/
+} /*turn on hover only in jquery*/
+
+.subnav-container a:hover {
+	background: #f5f5f5;
+	border-bottom: 2px solid #ccc;
+}
+
+.subnav-container .data-viz-nav a {
+	display: block;
+	width: 100%;
+	background: white;
+	opacity: 1.0 !important;
+	padding: 6px 3px !important;
+}
+
+.subnav-container .data-viz-nav {
+	display: none;
+} /*changes on hover*/
+
 
 .header-basic-light .header-limiter nav a:hover {
+	background-color: #eeeeee;
+	border-radius: 3px;
+}
+
+.header-basic-light .header-limiter nav a.selected {
 	/*background-color: #fafafa;*/
 	/*color: #ffffff;*/
 	/*border-radius: 3px;*/
-	padding:6px 0px;
-	margin: 0px 8px;
-	border-bottom: 1.5px solid #999999;
+	color: #7392c9;
+	font-weight:bolder;
+	border-bottom: 1.5px solid #7392c9 !important;
 }
 
-.data-viz-nav {
+.page-content .data-viz-nav {
 	padding-bottom: 20px;
 }
 
-.data-viz-nav a {
+.page-content .data-viz-nav a {
 	/*font: normal 28px Cookie, Arial, Helvetica, sans-serif;*/
 	font-family: 'Cedarville Cursive', cursive;
 	font-family: 'Dosis', sans-serif;
@@ -157,7 +191,7 @@ img {
 	text-transform: uppercase;
 }
 
-.data-viz-nav a.selected {
+.page-content .data-viz-nav a.selected {
 	/*font: normal 28px Cookie, Arial, Helvetica, sans-serif;*/
 	text-decoration: none;
 	color: #7392c9;
@@ -166,7 +200,7 @@ img {
 	padding:3px 8px !important;
 }
 
-.data-viz-nav a:hover {
+.page-content .data-viz-nav a:hover {
 	color: #2a67d1;
 }
 
@@ -267,7 +301,6 @@ img {
 .thumbnail img {
 	max-width: 100%;
 	cursor: pointer;
-	height: 260px;
 }
 
 .gif, .still {
@@ -382,7 +415,7 @@ img {
 
 	.header-basic-light {
 		padding: 20px 0;
-		height: 126px;
+		height: 128px;
 	}
 	
 	.contact {
@@ -393,7 +426,7 @@ img {
 
 	.header-basic-light .header-limiter h1 {
 		float: none;
-		margin: -8px 0 10px;
+		margin: -8px 0 4px;
 		text-align: center;
 		font-size: 42px;
 		line-height: 1;
@@ -408,6 +441,43 @@ img {
 	.header-basic-light .header-limiter nav a, .contact {
 		font-size: 14.5px;
 	}
+	
+	.page-content {
+		padding-top: 5px;
+	}
+	
+	.page-content h2 {
+		font-size: 28px;
+		margin: 12px auto;
+	}
+	
+	.page-content .about p, .page-content p {
+		font-size: 14px;
+		padding-top: 0;
+		padding-bottom: 20px;
+		max-width: 80%;
+		line-height: 1.5;
+	}
+	
+	.fancy {
+		margin-top: 10px;
+		font-size: 16px;
+	}
+	
+	.thumbnail-logo {
+		max-width: 100%;
+		margin: 20px 15px;
+	}
+	
+	.thumbnail-logo img {
+		max-width: 100px;
+		max-height: 70px;
+	}
+	
+	.thumbnail-sketch img {
+		max-width: 100%;
+		max-height: 100%;
+	} /*maybe only for mobile?*/
 }
 
 }

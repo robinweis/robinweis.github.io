@@ -37,11 +37,29 @@
 
 		<nav>
 			<a href="index.html">about</a>
-			<a href="data-visualization-digital.html" class="selected">data visualization</a>
+			<div class="subnav-container">
+				<a href="data-visualization-digital.html" class="selected">data visualization</a>
+				<div class="data-viz-nav">
+					<a href="data-visualization-digital.html">digital</a>
+					<a href="data-visualization-analog.html">analog</a>
+				</div>
+			</div>
 			<a href="information-design.html">information design</a>
 		</nav>
 	</div>
 	
+	
+	<script>
+	$(".subnav-container").hover( function () {
+  		$(".data-viz-nav").css("display","block");
+  		$(".subnav-container a:first()").css("background", "#f5f5f5");
+  		$(".subnav-container a").css("border-bottom", "2px solid #ccc");
+	}, function() {
+  		$(".subnav-container .data-viz-nav").css("display","none");
+  		$(".subnav-container a:first()").css("background", "none");
+  		$(".subnav-container a").css("border-bottom", "none");
+	});
+	</script>
 	
 
 </header>
@@ -56,7 +74,7 @@
 		<a href="data-visualization-analog.html">analog</a>
 	</nav>
 	
-	<p>This work is selected from <a href="https://www.robinwe.is" target="_blank">www.robinwe.is</a>, where I publish analyses of personal data sets. These projects have been featured on Vox, CBC’s Spark, NHPR's Word of Mouth, Data Driven Journalism, and presented at conferences internationally. Most visualizations are created with Adobe Illustrator or HTML Canvas + CSS, and animated with JavaScript and jQuery.</p>
+	<p>This work is selected from <a href="https://www.robinwe.is" target="_blank">www.robinwe.is</a>, where I publish analyses of personal data sets. These projects have been featured on Vox, CBC’s Spark, NHPR's Word of Mouth, Data Driven Journalism, and presented at conferences internationally. Most visualizations are created with Adobe Illustrator or HTML Canvas + CSS, and made interactive with JavaScript and jQuery.</p>
 
 	<img src="http://robinwe.is/portfolio/lies_interactive.gif"></img>
 	<img src="http://robinwe.is/portfolio/lie_pie.gif" class="slide"></img>
