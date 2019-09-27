@@ -285,6 +285,11 @@ img {
 	max-width: 80%;
 }
 
+.thumbnail-container {
+	max-width: 1400px;
+	margin: auto;
+}
+
 .thumbnail {
 	width: 400px;
 	max-width: 80%;
@@ -366,6 +371,11 @@ img {
 	color: #555;
 	margin-bottom: 20px;
 	margin-top: 40px;
+}
+
+p.change-vis-page {
+	padding-top: 35px;
+	text-align: center;
 }
 
 #overlay {
