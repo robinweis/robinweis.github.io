@@ -82,6 +82,12 @@ function addListeners() {
                     $("#bubble").html(string);
                     $('#cry').css('cursor', 'pointer');
                     break;
+                case "cry2":
+                    string = "<h4>cry2</h4>";
+                    string += "<div id='duration'><i>Sep 2018 - present</i></div>";
+                    string += "After the first crying project, I said I'd never track crying again, but I was wrong. This time I turned tracking into a social activity, and have had 20+ people tracking alongside me on a Facebook Messenger group.";
+                    $("#bubble").html(string);
+                    break;
                 case "ghostship":
                     string = "<h4>identity/ghostship</h4>";
                     string += "<div id='duration'><i>Nov 2013 - present</i></div>";
@@ -417,10 +423,46 @@ function addListeners() {
                     string += "I had such a positive experience being an rideshare passenger that I decided to turn the tables and get paid to have one-off interactions with strangers instead. I didn't do it super often, but it was a fun way to mitigate the expenses of owning a car while meeting people that you're never obligated to talk to again.";
                     $("#bubble").html(string);
                     break;
-		case "counselor":
+		        case "counselor":
                     string = "<h4>Counselor</h4>";
                     string += "<div id='duration'><i>Jun 2018 - Aug 2018</i></div>";
                     string += "I spent a summer working as a counselor at an English camp in Ukraine, despite never having worked with children or attended camp myself.";
+                    $("#bubble").html(string);
+                    break;
+                case "usps":
+                    string = "<h4>Holiday Clerk</h4>";
+                    string += "<div id='duration'><i>Jun 2018 - Aug 2018</i></div>";
+                    string += "What better way to get to know a new city than by working for the post office? I spent 6 weeks working overnight shifts sorting packages and delivering PO Box mail during the Thanksgiving thru New Years rush.";
+                    $("#bubble").html(string);
+                    break;
+                case "sub":
+                    string = "<h4>Substitute</h4>";
+                    string += "<div id='duration'><i>Jun 2018 - Aug 2018</i></div>";
+                    string += "The second-best way to get to know a new city is clearly to work as a substitute teacher. I loved how flexible the hours were and how it allowed me to daydream about working in an academic environment.";
+                    $("#bubble").html(string);
+                    break;
+                case "custodian":
+                    string = "<h4>Custodian</h4>";
+                    string += "<div id='duration'><i>Jun 2018 - Aug 2018</i></div>";
+                    string += "I returned to my hometown to spend time with my family while looking for new jobs, and had the opportunity to work at the rec center, just like my mom and little brother had. Cleaning bathrooms and picking up sweaty towels was a surprisingly sentimental way to connect with my hometown before moving away again.";
+                    $("#bubble").html(string);
+                    break;
+                case "vzt":
+                    string = "<h4>Information Designer</h4>";
+                    string += "<div id='duration'><i>Jun 2018 - Aug 2018</i></div>";
+                    string += "I help design proposals, presentations, and reports in the healthcare consulting space, working primarily with InDesign and occasionally with Tableau and Microsoft Office.";
+                    $("#bubble").html(string);
+                    break;
+                case "ads":
+                    string = "<h4>Moderator, Admin, and Event Planner</h4>";
+                    string += "<div id='duration'><i>Jun 2018 - Aug 2018</i></div>";
+                    string += "Somehow all the quirky involvements of my youth culminated into co-leading a dating Discord server for folx on the asexual and aromantic spectrums (we need love, companionship, and commitment, too!). In addition to exploring my identity and finding dates (including my current partner), this community has taught me a LOT about community management, moderation, and designing inclusive spaces. Our matchmaking events (which regularly have >100 participants) have helped me practice/learn PHP, MySQL, VPS & Linux administration, Python, and JS/CSS/HTML :)";
+                    $("#bubble").html(string);
+                    break;
+                case "survey":
+                    string = "<h4>Writer and Analyst</h4>";
+                    string += "<div id='duration'><i>Jun 2018 - Aug 2018</i></div>";
+                    string += "I help out with the Ace Community Survey, which produces and analyzes the largest dataset on asexual communities that exists worldwide. I have helped out with survey design, data analysis, report writing, write-in interpreation, and project coordination/scheduling.";
                     $("#bubble").html(string);
                     break;
                    }
@@ -462,7 +504,7 @@ var aboutMe = [
 	["robinwe.is&nbsp;&nbsp;", "me", "website", mar + 2015, today, true],
     ["dream&nbsp;&nbsp;", "me", "dream", apr + 2013, jul + 2014, true],
 	["work&nbsp;&nbsp;", "me", "wrk", jan + 2015, oct + 2015, false],
-	["memory dump&nbsp;&nbsp;", "me", "memory", mar + 2017, today, false],
+	["memory dump&nbsp;&nbsp;", "me", "memory", mar + 2017, dec + 2019, false],
 	["snail mail&nbsp;&nbsp;", "me", "letters", feb + 2013, today, true],
 	["context&nbsp;&nbsp;", "me", "context", jan + 2013, dec + 2017, true],
 	["trash&nbsp;&nbsp;", "me", "trash", apr + 2018, jun + 2018, false],
@@ -472,11 +514,11 @@ var aboutMe = [
 	["maestro&nbsp;&nbsp;", "me", "maestro", dec + 2013, jan + 2015, false],
     ["movies&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", "me", "movies", jul + 2015, today, false],
 	["date&nbsp;&nbsp;&nbsp;", "me", "date", aug + 2012, oct + 2015, true],
-    ["$$$&nbsp;&nbsp;&nbsp;", "me", "money", mar + 2017, today, false],
+    ["$$$&nbsp;&nbsp;&nbsp;", "me", "money", mar + 2017, dec + 2019, false],
 	["okanalytics&nbsp;&nbsp;", "me", "okc", jul+ 2012, jul + 2013, true],
 	["sorry&nbsp;&nbsp;", "me", "sorry", aug + 2013, jun + 2014, false],
 	["emotions&nbsp;&nbsp;", "me", "emotions", jul + 2014, today, false],
-    ["texts/memos&nbsp;&nbsp;", "me", "texts", jun + 2012, today, true],
+    ["texts/memos&nbsp;&nbsp;", "me", "texts", jun + 2012, dec + 2019, true],
 	["journey of a bird&nbsp;&nbsp;", "me", "journal", dec + 2005, today, true],
         ["&laquo;&nbsp;keepsakes&nbsp;&nbsp;", "me", "memories", sep + 2005, today, true],
 	["identity/ghostship", "me", "ghostship", nov + 2013, today, true],
@@ -486,11 +528,14 @@ var aboutMe = [
 	["hostess&nbsp;&nbsp;", "work", "bakerssquare", jul + 2008, aug + 2008, false],
 	["assistant&nbsp;&nbsp;", "work", "nuscs", jan + 2011, jun + 2011, false],
 	["clerk&nbsp;&nbsp;", "work", "ymca", jun + 2012, jun + 2013, false],
-	["cry&nbsp;&nbsp;", "me", "cry", feb + 2014, oct + 2015, false],
+    ["cry&nbsp;&nbsp;", "me", "cry", feb + 2014, oct + 2015, false],
+	["cry2&nbsp;&nbsp;", "me", "cry2", sep + 2018, today, false],
 	["assistant referee&nbsp;&nbsp;", "work", "pegasus", apr + 2007, jun + 2010, true],
 	["referee&nbsp;&nbsp;", "work", "nuim", mar + 2011, jun + 2013, false],
 	["developer and designer&nbsp;&nbsp;", "work", "mcm", sep + 2014, mar + 2017, true],
-	["counselor&nbsp;&nbsp;", "work", "counselor", jun + 2018, aug + 2018, false],
+    ["counselor&nbsp;&nbsp;", "work", "counselor", jun + 2018, aug + 2018, false],
+    ["substitute teacher&nbsp;&nbsp;", "work", "sub", feb + 2019, apr + 2019, false],
+    ["information designer&nbsp;&nbsp;", "work", "vzt", dec + 2019, today, false],
 	
 	["program coordinator&nbsp;&nbsp;", "work", "cia", jun + 2013, sep + 2013, false],
 	["assistant&nbsp;&nbsp;", "work", "cradle", jun + 2011, jun + 2012, false],
@@ -499,21 +544,25 @@ var aboutMe = [
 
 	filler,
 
-        ["driver&nbsp;&nbsp;", "work", "driver", dec + 2015, mar + 2017, false],
+    ["driver&nbsp;&nbsp;", "work", "driver", dec + 2015, mar + 2017, false],
+    ["holiday clerk&nbsp;&nbsp;", "work", "usps", nov + 2018, jan + 2019, false],
+    ["custodian&nbsp;&nbsp;", "work", "custodian", sep + 2019, nov + 2019, false],
 	["ra&nbsp;&nbsp;", "college", "finkel", sep + 2013, jun + 2014, true],
 	["ra&nbsp;&nbsp;", "college", "psych", jan + 2013, jun + 2013, false],
 	["ta&nbsp;&nbsp;", "hs", "math", sep + 2009, jun + 2010, false],
 	["deerfield high school&nbsp;&nbsp;", "hs", "dhs", sep + 2006, jun + 2010, true],
 	["northwestern university&nbsp;&nbsp;", "college", "nu", sep + 2010, jun + 2014, false],
 	//["", "fade", "carusofade", jun + 2005, oct + 2005, false],
-	["&laquo;&nbsp;CARUSO&nbsp;&nbsp;", "hs", "caruso", sep + 2005, jun + 2006, false],
+	["&laquo;&nbsp;&nbsp;", "hs", "caruso", sep + 2005, jun + 2006, false],
     ["saic&nbsp;&nbsp;&nbsp;", "adult", "saic", nov + 2015, apr + 2016, false],
+    ["moderator, admin, and event planner&nbsp;&nbsp;&nbsp;", "adult", "ads", feb + 2019, today, false],
 
 	filler,
 
     	["quantified self&nbsp;&nbsp;", "adult", "qs", jun + 2015, mar + 2017, false],
-	["travel&nbsp;&nbsp;", "adult", "travel", apr + 2017, today, false],
-  	["volunteer&nbsp;&nbsp;", "adult", "shelter", oct + 2016, mar + 2017, true],
+    ["travel&nbsp;&nbsp;", "adult", "travel", apr + 2017, nov + 2019, false],
+    ["analyst&nbsp;&nbsp;", "adult", "survey", oct + 2019, today, true],
+  	["volunteer&nbsp;&nbsp;", "adult", "shelter", oct + 2016, mar + 2017, false],
 	["sigma alpha iota&nbsp;&nbsp;", "college", "sai", apr + 2011, jun + 2014, false],
 	["good karma&nbsp;&nbsp;", "hs", "goodkarma", sep + 2007, jun + 2009, false],
 	["actuary club&nbsp;&nbsp;", "college", "actuary", jan + 2011, mar + 2013, true],
@@ -558,9 +607,11 @@ var aboutMe = [
   ["|", "tick", "2017tick", 2017, 2018, false],
 	["2017", "timeline", "2017", 2017, 2018, false],
   ["|", "tick", "2018tick", 2018, 2019, false],
-	["2018", "timeline", "2018", 2018, 2019, false],
+    ["2018", "timeline", "2018", 2018, 2019, false],
   ["|", "tick", "2019tick", 2019, 2020, false],
-	["PRESENT", "timeline", "2019", 2019, 2020, false]
+	["2019", "timeline", "2019", 2019, 2020, false],
+  ["|", "tick", "2020tick", 2020, 2021, false],
+	["PRESENT", "timeline", "2020", 2020, 2021, false]
 ];
 
 var setWidth = function(entryStartTime, entryEndTime) {
