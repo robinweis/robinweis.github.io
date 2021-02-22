@@ -535,7 +535,7 @@ var aboutMe = [
 	["developer and designer&nbsp;&nbsp;", "work", "mcm", sep + 2014, mar + 2017, true],
     ["counselor&nbsp;&nbsp;", "work", "counselor", jun + 2018, aug + 2018, false],
     ["substitute teacher&nbsp;&nbsp;", "work", "sub", feb + 2019, apr + 2019, false],
-    ["information designer&nbsp;&nbsp;", "work", "vzt", dec + 2019, today, false],
+    ["designer&nbsp;&nbsp;", "work", "vzt", dec + 2019, today, false],
 	
 	["program coordinator&nbsp;&nbsp;", "work", "cia", jun + 2013, sep + 2013, false],
 	["assistant&nbsp;&nbsp;", "work", "cradle", jun + 2011, jun + 2012, false],
@@ -555,7 +555,7 @@ var aboutMe = [
 	//["", "fade", "carusofade", jun + 2005, oct + 2005, false],
 	["&laquo;&nbsp;&nbsp;", "hs", "caruso", sep + 2005, jun + 2006, false],
     ["saic&nbsp;&nbsp;&nbsp;", "adult", "saic", nov + 2015, apr + 2016, false],
-    ["moderator, admin, and event planner&nbsp;&nbsp;&nbsp;", "adult", "ads", feb + 2019, today, false],
+    ["moderator and admin&nbsp;&nbsp;&nbsp;", "adult", "ads", feb + 2019, today, false],
 
 	filler,
 
@@ -611,7 +611,9 @@ var aboutMe = [
   ["|", "tick", "2019tick", 2019, 2020, false],
 	["2019", "timeline", "2019", 2019, 2020, false],
   ["|", "tick", "2020tick", 2020, 2021, false],
-	["PRESENT", "timeline", "2020", 2020, 2021, false]
+	["2020", "timeline", "2020", 2020, 2021, false],
+    ["|", "tick", "2021tick", 2021, 2022, false],
+	["2021", "timeline", "2021", 2021, 2022, false]
 ];
 
 var setWidth = function(entryStartTime, entryEndTime) {
